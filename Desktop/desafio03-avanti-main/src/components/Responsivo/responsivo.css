@@ -1,0 +1,78 @@
+/* Responsividade Header */
+@media (max-width: 768px) {
+    header {
+      display: inline-block;
+      flex-direction: column; /* Coloca os elementos em coluna */
+      align-items: flex-start; /* Alinha os elementos à esquerda */
+      width: 100%; /* Largura total da tela */
+      margin: 0;
+      margin-left: 10%;
+      
+    }
+  
+    .favorites {
+      display: inline-block;
+      font-size: 1.2rem;
+      color: #FFFFFF;
+    
+      margin: 0;
+  
+    }
+   
+    .search-container {
+      
+      float: none; 
+      width: 100%; 
+      margin: 0; 
+      margin-left: 10%;
+      
+    }
+  
+    .input-search {
+      
+      width: 100%; 
+      padding-left: 5%;
+      margin: 0; 
+      margin-left: 55px;
+      margin-right: 275px;
+      margin: 0;
+      
+    }
+  
+    .button {
+      width: 2em; 
+      height: 2em; 
+      margin: 0.125em 0.25em; 
+      font-size: 1em; 
+      margin: 0;
+    } 
+  
+  }
+  
+  
+  
+
+
+
+
+
+/* Responsividade movie */
+
+@media (max-width: 480px) {
+    .movie {
+      margin:  10px; 
+    }
+    .info,
+    .title {
+      flex-direction: column; 
+      align-items: flex-start; 
+    }
+   
+    .poster>img{
+        width: 194px;
+        height: 289px;
+    }
+  }
+
+
+  

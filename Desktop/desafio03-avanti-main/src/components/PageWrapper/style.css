@@ -1,0 +1,17 @@
+.PageWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 16px;
+    border: 8px solid var(--gradientes-gradiente-logo, #9747FF);
+    background: var(--cores-cinza-dark, #1E1F28);
+    box-shadow: 0px -3px 22px 0px rgba(0, 0, 0, 0.35);
+    padding: 44px 260px;
+    color: #FFF;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 854px; 
+}

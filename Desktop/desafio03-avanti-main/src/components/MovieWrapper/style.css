@@ -1,0 +1,7 @@
+.movies {
+    display: flex;
+    gap: 36px; 
+    align-items: center;
+    justify-content: center; 
+    max-width: 920px;
+}
