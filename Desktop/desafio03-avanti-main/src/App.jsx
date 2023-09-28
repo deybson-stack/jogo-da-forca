@@ -3,6 +3,7 @@ import "./App.css";
 import { Home } from "./pages/Home";
 import { Detalhes } from "./pages/Detalhes/Detalhes";
 import { Favorites } from "./pages/Favorites";
+import { Pesquisa } from "./pages/Pesquisa/Pesquisa";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           {/* Inserir pagina abaixo e importar */}
           <Route path="/detalhes/:id" element={<Detalhes />} />
           <Route path="/favorites" element={<Favorites />} />
-          {/* <Route path="/pesquisa/:id" element={<Pesquisa/>} /> */}
+          <Route path="/pesquisa/:id" element={<Pesquisa/>} />
         </Routes>
       </BrowserRouter>
     </>

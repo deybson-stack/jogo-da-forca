@@ -1,3 +1,5 @@
+
+
 .movie {
     display: flex;
     flex-direction: column;
@@ -49,6 +51,7 @@
 .poster>img{
     width: 194px;
     height: 289px;
+    border-radius: 4px;
 }
 
 
@@ -94,3 +97,20 @@
 
 
 
+/* Responsividade movie */
+
+@media (max-width: 480px) {
+    .movie {
+      margin:  10px; 
+    }
+    .info,
+    .title {
+      flex-direction: column; 
+      align-items: flex-start; 
+    }
+   
+    .poster>img{
+        width: 194px;
+        height: 289px;
+    }
+  }

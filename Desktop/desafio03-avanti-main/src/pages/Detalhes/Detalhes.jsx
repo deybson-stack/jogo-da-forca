@@ -31,9 +31,9 @@ export const Detalhes = () => {
 
     return (
         <>
-            <Header />
             <div className="detalhes-container .d-flex flex-column align-items-center">
-                <h1>{movie.original_title}</h1>
+            <Header />
+                <h1>{movie.title}</h1>
                 <h5>{moment(movie.release_date).format('DD/MM/YYYY')}</h5>
                 <img className="detalhes-icon" src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`} alt="" />
                 <link rel="icon" href="./assets/icone_logo_aba.png" />

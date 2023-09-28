@@ -1,3 +1,4 @@
+
 header {
     display: flex;
     justify-content: space-between; 
@@ -7,7 +8,7 @@ header {
 }
 
 .image_logo {
-    margin-left: -160px;
+    margin-left: -200px;
 }
 
 .search-container {
@@ -27,7 +28,7 @@ header {
   }
 
 .input-search{
-  height: 63px;
+  height: 30px;
   font-size: 20px;
   
 }
@@ -43,7 +44,7 @@ header {
   .search-container:focus input,
   .search-container:focus-within input {
     display: inline-block;
-    width: 19em;
+    width: 20em;
   }
   
   input {
@@ -118,8 +119,61 @@ header {
     color: #FFFFFF;
   }
 
+  
 
 
+
+
+  
+
+ /* Responsividade Header */
+@media (max-width: 768px) {
+  header {
+    display: inline-block;
+    flex-direction: column; /* Coloca os elementos em coluna */
+    align-items: flex-start; /* Alinha os elementos à esquerda */
+    width: 100%; /* Largura total da tela */
+    margin: 0;
+    margin-left: 10%;
+    
+  }
+
+  .favorites {
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+  
+    margin: 0;
+
+  }
  
+  .search-container {
+    
+    float: none; 
+    width: 100%; 
+    margin: 0; 
+    margin-left: 10%;
+    
+  }
 
+  .input-search {
+    
+    width: 100%; 
+    padding-left: 5%;
+    margin: 0; 
+    margin-left: 55px;
+    margin-right: 275px;
+    margin: 0;
+    
+  }
+
+  .button {
+    width: 2em; 
+    height: 2em; 
+    margin: 0.125em 0.25em; 
+    font-size: 1em; 
+    margin: 0;
+  } 
+
+}
 
